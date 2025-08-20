@@ -1,14 +1,329 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Title</title>
-    <link rel="stylesheet" href="screen.css">
-  </head>
-  <body>
-    <h1>Heading</h1>
-    <script src="index.js"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Ironclad Roofing — Licensed & Insured | Free Quote</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ironclad Roofing installs and repairs residential roofs. Licensed & insured. Fast quotes, fair pricing, quality workmanship.">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Manrope:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Top Notice -->
+  <div class="topbar">
+    <span>Storm damage? Ask about same‑week inspections.</span>
+    <a class="topbar-link" href="#quote">Get a Free Quote</a>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Ironclad Roofing home">
+        <svg width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 12L12 4l9 8v8h-6v-5H9v5H3z"/></svg>
+        <span>Ironclad Roofing</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primary-menu">Menu</button>
+        <ul id="primary-menu">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#why">Why Us</a></li>
+          <li><a href="#work">Before/After</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#quote">Quote</a></li>
+        </ul>
+      </nav>
+      <div class="header-ctas">
+        <a class="btn btn-outline" href="tel:+12485551234" aria-label="Call Ironclad Roofing">(248) 555‑1234</a>
+        <a class="btn btn-gold" href="#quote">Get a Free Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" aria-label="Hero">
+    <div class="hero-bg" style="--bg:url('https://images.unsplash.com/photo-1604014237800-1c9102c5743c?q=80&w=1800&auto=format&fit=crop')"></div>
+    <div class="container hero-inner">
+      <h1>Roofing Done Right. <span class="underline">Guaranteed.</span></h1>
+      <p class="sub">Licensed & insured residential roofing. Fast quotes, clean job sites, no surprises.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-gold btn-lg" href="#quote">Get a Free Quote</a>
+        <a class="btn btn-ghost btn-lg" href="tel:+12485551234">Call (248) 555‑1234</a>
+      </div>
+      <ul class="badges" role="list">
+        <li>• Licensed & Insured</li>
+        <li>• 10‑Year Workmanship Warranty</li>
+        <li>• 4.9★ Local Reviews</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Trust Bar -->
+  <section class="trust">
+    <div class="container trust-row">
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M12 1l9 4v6c0 5.55-3.84 10.74-9 12-5.16-1.26-9-6.45-9-12V5l9-4z"/></svg>
+        <span>Verified • Licensed • Insured</span>
+      </div>
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M12 17.27L18.18 21l-1.63-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.45 4.73L5.82 21z"/></svg>
+        <span>4.9★ average (200+ reviews)</span>
+      </div>
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M20 6h-3V4a3 3 0 00-6 0v2H8a2 2 0 00-2 2v11a2 2 0 002 2h12a2 2 0 002-2V8a2 2 0 00-2-2zm-7-2a1 1 0 012 0v2h-2V4z"/></svg>
+        <span>Upfront, written quotes</span>
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+    <!-- Services -->
+    <section id="services" class="services">
+      <div class="container">
+        <div class="section-head">
+          <h2>Roofing Services</h2>
+          <p class="muted">Everything you need from inspection to install—done clean and on time.</p>
+        </div>
+        <div class="svc-grid">
+          <article class="svc">
+            <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1200&auto=format&fit=crop" alt="Crew installing asphalt shingles on a roof">
+            <h3>New Roof Install</h3>
+            <p>Architectural shingles, ridge vents, ice & water shield, and full cleanup.</p>
+          </article>
+          <article class="svc">
+            <img src="https://images.unsplash.com/photo-1581092921461-b9429ffcdf1a?q=80&w=1200&auto=format&fit=crop" alt="Technician inspecting roof flashing and gutters">
+            <h3>Roof Repair</h3>
+            <p>Leak tracing, flashing fixes, storm damage repair—fast turnarounds.</p>
+          </article>
+          <article class="svc">
+            <img src="https://images.unsplash.com/photo-1597009031066-4d8b9815f7b8?q=80&w=1200&auto=format&fit=crop" alt="House roof with new gutters and downspouts">
+            <h3>Gutters & Venting</h3>
+            <p>Seamless gutters, gutter guards, attic ventilation audits & upgrades.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Us (stats) -->
+    <section id="why" class="why">
+      <div class="container why-grid">
+        <div>
+          <h2>Why Homeowners Choose Ironclad</h2>
+          <ul class="checks" role="list">
+            <li>Certified crews with on‑site foreman</li>
+            <li>Written warranties & photo updates</li>
+            <li>We treat your yard like it’s ours</li>
+          </ul>
+        </div>
+        <div class="stats">
+          <div class="stat"><span>1,200+</span> Roofs Completed</div>
+          <div class="stat"><span>98%</span> On‑Time Projects</div>
+          <div class="stat"><span>10 yrs</span> Workmanship Warranty</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Before/After scroll-snap -->
+    <section id="work" class="work">
+      <div class="container">
+        <div class="section-head">
+          <h2>Recent Work — Before & After</h2>
+          <p class="muted">Swipe on mobile or use your trackpad to view more homes.</p>
+        </div>
+      </div>
+      <div class="snap-row">
+        <figure class="ba">
+          <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=1600&auto=format&fit=crop" alt="House before roof replacement">
+          <figcaption>Before</figcaption>
+        </figure>
+        <figure class="ba">
+          <img src="https://images.unsplash.com/photo-1600585153490-76fb20a32601?q=80&w=1600&auto=format&fit=crop" alt="House after roof replacement with new shingles">
+          <figcaption>After</figcaption>
+        </figure>
+        <figure class="ba">
+          <img src="https://images.unsplash.com/photo-1554995207-c18c203602cb?q=80&w=1600&auto=format&fit=crop" alt="Another home before repairs">
+          <figcaption>Before</figcaption>
+        </figure>
+        <figure class="ba">
+          <img src="https://images.unsplash.com/photo-1599420186946-7b6b2bb7f87f?q=80&w=1600&auto=format&fit=crop" alt="Same home after repairs">
+          <figcaption>After</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section class="process">
+      <div class="container">
+        <div class="section-head">
+          <h2>Our 3‑Step Process</h2>
+        </div>
+        <ol class="steps">
+          <li>
+            <span class="step-num">1</span>
+            <div>
+              <h3>Free Inspection</h3>
+              <p>We check shingles, decking, flashing, and ventilation. Photos included.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-num">2</span>
+            <div>
+              <h3>Clear Quote</h3>
+              <p>Line‑item pricing and options. No surprise fees, ever.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-num">3</span>
+            <div>
+              <h3>Install & Clean</h3>
+              <p>One‑day installs on most homes. Magnet sweep and full cleanup.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" aria-label="Customer testimonials">
+      <div class="container">
+        <div class="section-head">
+          <h2>What Neighbors Say</h2>
+        </div>
+        <div class="t-carousel" aria-live="polite">
+          <blockquote class="t current">“Crew was on time, fast, and cleaned up everything. Roof looks great.” <cite>— Alicia P.</cite></blockquote>
+          <blockquote class="t">“They found the leak in 15 minutes. Honest and fair pricing.” <cite>— Mark R.</cite></blockquote>
+          <blockquote class="t">“Best contractor experience we’ve had. Would hire again.” <cite>— Dev J.</cite></blockquote>
+        </div>
+        <div class="t-dots">
+          <button class="dot active" aria-label="Show testimonial 1"></button>
+          <button class="dot" aria-label="Show testimonial 2"></button>
+          <button class="dot" aria-label="Show testimonial 3"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="faq">
+      <div class="container">
+        <div class="section-head">
+          <h2>FAQ</h2>
+        </div>
+        <div class="accordion" role="tablist">
+          <details class="acc">
+            <summary><span>How fast can you inspect my roof?</span></summary>
+            <div class="acc-body">Usually within 48 hours. After storms, we add crews to keep response times quick.</div>
+          </details>
+          <details class="acc">
+            <summary><span>Do you work with insurance claims?</span></summary>
+            <div class="acc-body">Yes. We document damage with photos and help you through the process.</div>
+          </details>
+          <details class="acc">
+            <summary><span>What warranties do you provide?</span></summary>
+            <div class="acc-body">10‑year workmanship warranty plus manufacturer shingle warranties.</div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quote / Contact -->
+    <section id="quote" class="quote">
+      <div class="container quote-grid">
+        <div>
+          <h2>Get a Free Quote</h2>
+          <p class="muted">Tell us a bit about your home. We’ll follow up with an inspection time.</p>
+          <ul class="checks" role="list">
+            <li>Licensed & insured</li>
+            <li>Written, line‑item quotes</li>
+            <li>No spam or hard sells</li>
+          </ul>
+        </div>
+        <form name="quote" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="form">
+          <input type="hidden" name="form-name" value="quote">
+          <p class="hidden">
+            <label>Don’t fill this out: <input name="bot-field"></label>
+          </p>
+          <div class="field">
+            <label for="name">Full Name</label>
+            <input id="name" name="name" required autocomplete="name">
+          </div>
+          <div class="field">
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" required inputmode="tel" autocomplete="tel">
+          </div>
+          <div class="field">
+            <label for="address">Address</label>
+            <input id="address" name="address" autocomplete="street-address">
+          </div>
+          <div class="field">
+            <label for="service">Service Needed</label>
+            <select id="service" name="service" required>
+              <option value="">Select…</option>
+              <option>New Roof</option>
+              <option>Repair</option>
+              <option>Gutters/Ventilation</option>
+              <option>Inspection</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="msg">Notes</label>
+            <textarea id="msg" name="message" rows="3" placeholder="Leak location, timing, insurance, etc."></textarea>
+          </div>
+          <button class="btn btn-gold btn-lg" type="submit">Submit Request</button>
+          <p class="form-note">Prefer phone? <a href="tel:+12485551234">Call (248) 555‑1234</a></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand small">
+          <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 12L12 4l9 8v8h-6v-5H9v5H3z"/></svg>
+          <span>Ironclad Roofing</span>
+        </div>
+        <p class="muted">Residential roofing in Rochester & nearby. Licensed & insured.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>(248) 555‑1234<br>hello@ironclad.demo</p>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <p>221 Main St, Rochester, MI 48307</p>
+      </div>
+    </div>
+    <p class="legal">© <span id="year"></span> Ironclad Roofing. All rights reserved.</p>
+
+    <!-- Mobile sticky CTA -->
+    <div class="mobile-cta">
+      <a href="#quote" class="btn btn-gold">Get a Free Quote</a>
+      <a href="tel:+12485551234" class="btn btn-outline">Call</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"RoofingContractor",
+    "name":"Ironclad Roofing",
+    "telephone":"+1-248-555-1234",
+    "address":{
+      "@type":"PostalAddress",
+      "streetAddress":"221 Main St",
+      "addressLocality":"Rochester",
+      "addressRegion":"MI",
+      "postalCode":"48307"
+    },
+    "areaServed":"Rochester, MI",
+    "url":"https://example.com"
+  }
+  </script>
+</body>
 </html>
